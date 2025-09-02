@@ -111,9 +111,11 @@ with tab1:
         st.pyplot(fig)
         plt.close(fig)
 
-        fig2, ax2 = plt.subplots(figsize=(8, 6))
-        shap.plots.waterfall(shap_values[0], max_display=10, ax=ax2)
-        plt.title("How Features Push Prediction")
+        # --- Plot 2: SHAP Waterfall Plot (Fixed for SHAP v0.40+) ---
+        st.subheader("🧠 How This Prediction Was Made")
+        fig2 = plt.figure(figsize=(8, 6))  # Create figure before plotting
+        shap.plots.waterfall(shap_values[0], max_display=10)
+        plt.title("How Features Push Prediction", pad=20)
         st.pyplot(fig2)
         plt.close(fig2)
 
