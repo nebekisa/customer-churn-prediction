@@ -4,7 +4,7 @@
 > **A full-stack data science solution** that predicts which customers will leave — and **what to do about it**.  
 > Built for telecom, SaaS, and subscription businesses to **reduce churn by 30%+**.
 
-🚀 **Live Demo**: [https://nebekisa-customer-churn-prediction.streamlit.app](https://nebekisa-customer-churn-prediction.streamlit.app)  
+🚀 **Live Demo**: [[https://nebekisa-customer-churn-prediction.streamlit.app](https://nebekisa-customer-churn-prediction-dashboardapp-q2vpck.streamlit.app/)]
 📄 **Business Report**: [Download Strategy PDF](reports/Business_Strategy_Report.pdf)  
 💼 **Want this for your business?** [Contact Me](#-about-this-project)
 
@@ -80,141 +80,11 @@ This is a **real-world, revenue-impacting solution** used by real companies.
 
 ![Dashboard Screenshot](dashboard/assets/screenshot.png)
 
-👉 **Try it live**: [https://nebekisa-customer-churn-prediction.streamlit.app](https://nebekisa-customer-churn-prediction.streamlit.app)
+👉 **Try it live**: [[https://nebekisa-customer-churn-prediction.streamlit.app](https://nebekisa-customer-churn-prediction-dashboardapp-q2vpck.streamlit.app/)]
 
 ---
 
 ## 📂 Project Structure
-profile
-Qwen3-235B-A22B-2507 9:21 pm
-
-Absolutely! Here's a professional, client-winning, Upwork-optimized README.md for your Customer Churn Prediction Project. 
-
-This isn't just a README — it's a portfolio piece, a sales pitch, and a proof of your full-stack data science skills — all in one. 
- 
-✅ Copy-Paste This into Your README.md 
-markdown
- 
- 
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-⌄
-⌄
-⌄
-⌄
-⌄
-⌄
-⌄
-⌄
-⌄
-🚀 **Live Demo**: [https://nebekisa-customer-churn-prediction.streamlit.app](https://nebekisa-customer-churn-prediction.streamlit.app)  
-
-### 2. Top Churn Drivers (SHAP)
-![SHAP Summary](dashboard/assets/shap_summary.png)
-
-> 🔍 **Top 3 factors**: Month-to-month contract, no tech support, high monthly charges.
-
-### 3. Business Impact
-| Metric | Value |
-|-------|-------|
-| Avg. Churn Rate | 18.7% |
-| High-Risk Customers | 210 |
-| Revenue at Risk | $2.1M/year |
-| Potential Savings | $1.2M/year |
-
----
-
-## 🚀 Features
-
-### 🔹 **Predictive Modeling**
-- **Model**: XGBoost (Optuna-tuned)
-- **Recall**: 89%  
-- **Precision**: 76%  
-- **ROC-AUC**: 0.89
-- **Imbalanced Data**: Handled with SMOTE
-
-### 🔹 **Explainability (SHAP)**
-- Global feature importance
-- Local explanations for each prediction
-- Waterfall plots showing risk breakdown
-
-### 🔹 **Interactive Dashboard**
-- Real-time churn prediction
-- Risk segmentation (Low/Medium/High)
-- Exportable reports
-- AI-powered retention strategies
-
-### 🔹 **Business Value**
-- 3 actionable retention strategies
-- ROI estimation
-- Ready for real-world deployment
-
----
-
-## 🖥️ Live Dashboard
-
-![Dashboard Screenshot](dashboard/assets/screenshot.png)
-
-👉 **Try it live**: [https://nebekisa-customer-churn-prediction.streamlit.app](https://nebekisa-customer-churn-prediction.streamlit.app)
-
----
-
-## 📂 Project Structure
-
- 
- 
-
 customer-churn-prediction/
 ├── dashboard/               # Streamlit app
 │   └── app.py
@@ -232,15 +102,13 @@ customer-churn-prediction/
 │       └── WA_Fn-UseC_-Telco-Customer-Churn-.csv
 ├── requirements.txt         # Python dependencies
 ├── runtime.txt              # Forces Python 3.10
-└── README.md                # You're here! 
-
-
+└── README.md                # You're here!
 
 ---
 
 ## 🚀 How to Run Locally
 
-
+bash
 # Clone the repo
 git clone https://github.com/nebekisa/customer-churn-prediction.git
 cd customer-churn-prediction
@@ -262,9 +130,12 @@ streamlit run dashboard/app.py
 
 Your app is production-ready and can be deployed in minutes. 
 
-   1,Push to GitHub
-   2, Go to Streamlit Cloud 
-   3, Deploy with 1 click
+  1 Push to GitHub
+  2 Go to Streamlit Cloud 
+  3 Deploy with 1 click
+     
+
+ 
 🧑‍💼 About This Project 
 
 Built by Bereket Andualem, a data science freelancer helping businesses predict churn, increase retention, and grow revenue. 
@@ -286,5 +157,8 @@ Let’s build a custom churn prediction system for your business.
 
    Dataset: IBM Telco Customer Churn 
    Inspired by real-world retention strategies at SaaS companies
-    
+     
+
+ 
+
 🚀 Star this repo if you found it helpful!
