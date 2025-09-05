@@ -240,7 +240,7 @@ customer-churn-prediction/
 
 ## 🚀 How to Run Locally
 
-```bash
+
 # Clone the repo
 git clone https://github.com/nebekisa/customer-churn-prediction.git
 cd customer-churn-prediction
@@ -262,9 +262,9 @@ streamlit run dashboard/app.py
 
 Your app is production-ready and can be deployed in minutes. 
 
-    Push to GitHub
-    Go to Streamlit Cloud 
-    Deploy with 1 click
+   1,Push to GitHub
+   2, Go to Streamlit Cloud 
+   3, Deploy with 1 click
 🧑‍💼 About This Project 
 
 Built by Bereket Andualem, a data science freelancer helping businesses predict churn, increase retention, and grow revenue. 
@@ -284,7 +284,7 @@ Let’s build a custom churn prediction system for your business.
  
 🙌 Acknowledgements 
 
-    Dataset: IBM Telco Customer Churn 
-    Inspired by real-world retention strategies at SaaS companies
+   Dataset: IBM Telco Customer Churn 
+   Inspired by real-world retention strategies at SaaS companies
     
 🚀 Star this repo if you found it helpful!
